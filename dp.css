@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.head{
+width: 100%;
+height: 124px;
+background: #ffff;
+box-shadow: 0px 1px 15px rgba(21, 21, 21, 0.08);
+}
+.m_head{
+    margin-top: 23px;
+}
+
+.topnav{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-family: 'Open Sans';
+}
+
+.topnav a {
+  color: #0d0d0d;
+  padding: 14px 16px;
+  text-decoration: none;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+}
+.sumb{
+    background:  #2A97E1;
+    border-radius: 58px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
