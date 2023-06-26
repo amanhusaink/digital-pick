@@ -9,11 +9,13 @@ box-shadow: 0px 1px 15px rgba(21, 21, 21, 0.08);
 }
 .m_head{
     margin-top: 23px;
+    margin-left: 120px;
+    height: 61px; 
 }
 
 .topnav{
     float: right;
-    margin-right: 100px;
+    margin-right: 56px;
     margin-top: 50px;
     font-family: 'Open Sans';
 }
@@ -32,6 +34,7 @@ line-height: 25px;
     border-radius: 58px;
     padding-left: 5px;
     padding-right: 5px;
+    color: white;
 }
 .sm-head{
     
@@ -40,6 +43,31 @@ line-height: 25px;
 
 
 }
-.h5{
-    display: block;
+.sm-head{
+    
+    display: flex;
+
+padding: 0px;
+gap: 27px;
+
+margin-top: 71px;
+margin-left: 123px;
+
+
+}
+.fnt{
+    font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+hr.ln-1 {
+  position: absolute;
+width: 1256px;
+height: 0px;
+left: 128px;
+top: 240px;
+
+border: 0.5px solid #AFAFAF;
 }
