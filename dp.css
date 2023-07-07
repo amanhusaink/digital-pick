@@ -55,6 +55,7 @@ body{
      background: #ffff;
      box-shadow: 0px 1px 15px rgba(21, 21, 21, 0.08);
      margin-bottom: 48px;
+     display: inline-flex;
 }
 .m_head{
      margin-top: 37px;
@@ -79,7 +80,7 @@ li.fnt-1{
 
 .topnav,a {
      color:  #494949;
-     padding: 14px 16px;
+     padding: 49px 16px;
      text-decoration: none;
      font-style: normal;
      font-weight: 500;
@@ -164,15 +165,14 @@ h5.right{
     border-radius: 50px;
     border: 1px solid #2A97E1;
     background: #FFF;
-    padding: 0px 0px 5px 13px;
+    padding: 0px 0px 8px 13px;
     margin: 12px 19px 0px;
     width: 43px;
     height: 17px;
     display: block;
+    color: #2A97E1;
 }
-.dwn{
-    color: #494949;
-}
+
 
 
 
