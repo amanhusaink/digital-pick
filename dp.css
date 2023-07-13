@@ -1,573 +1,230 @@
 @font-face {
      font-family: 'Readex Pro';
      src: url(/fonts/ReadexPro-Medium.ttf) format('truetype');
-     font-weight:500;
+     font-weight: 500;
      font-style: normal;
 }
 
 @font-face {
-    font-family: 'Readex Pro';
-    src: url(/fonts/ReadexPro-SemiBold.ttf) format('truetype');
-    font-weight:600;
-    font-style: normal;
+     font-family: 'Readex Pro';
+     src: url(/fonts/ReadexPro-SemiBold.ttf) format('truetype');
+     font-weight: 600;
+     font-style: normal;
 }
 
 @font-face {
      font-family: 'Readex Pro';
      src: url(/fonts/ReadexPro-Regular.ttf) format('truetype');
-     font-weight:400;
+     font-weight: 400;
      font-style: normal;
 }
+
 @font-face {
      font-family: 'Readex Pro';
      src: url(/fonts/ReadexPro-Bold.ttf) format('truetype');
-     font-weight:700;
+     font-weight: 700;
      font-style: normal;
 }
+
 @font-face {
      font-family: 'readex pro';
      src: url(../fonts/Readexpro-Light.ttf) format('truetype');
-     font-style: normal;    
+     font-style: normal;
      font-weight: 300;
 }
+
 @font-face {
      font-family: 'readex pro';
      src: url(../fonts/ReadexPro-ExtraLight.ttf) format('truetype');
-     font-style: normal;    
+     font-style: normal;
      font-weight: 200;
 }
 
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box
+}
 
 
-    
 
-body{
+body {
      margin: 0;
 }
 
-.main{
+.main {
      padding: 0px 100px 0px 128px;
 }
 
-.head{
-     width: 100%;
-     height: 124px;
-     background: #ffff;
-     box-shadow: 0px 1px 15px rgba(21, 21, 21, 0.08);
-     margin-bottom: 48px;
-     display: inline-flex;
-}
-.m_head{
-     margin-top: 37px;
-     margin-left: 128px;
-     height: 44px; 
-}
-.mg{
-  padding: 0px 10px 0px 10px;
-}
-li.fnt-1{
-    padding: 0px;
-}
-.fnt{
-    color: #696767;
-    
-}
-.topnav{
-     font-family: 'Open Sans';
-     display: inline-block;
-     margin-left:50%;
+.nav-item-1 {
+     background: #2490D9;
+     border-radius: 50px;
 }
 
-.topnav,a {
-     color:  #494949;
-     padding: 49px 16px;
-     text-decoration: none;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 18px;
-     font-family:sans-serif;
-}
-.sumb {
-     background:  #2A97E1;
-     border-radius: 30px;
-    padding: 4px 14px 5px 14px;
+.navbar-toggle {
      color: white;
 }
 
-.sm-head{
-     width: 100%;
-     
-     padding: 0px 0px 45px;
-     gap: 27px;
-     margin-top: 32px;
+.nav {
+     margin: 48px 0px 46px;
      border-bottom: #AFAFAF solid 1px;
+     padding-bottom: 45px;
 }
 
-.sm-head>ul>li{
-     text-decoration: none;
-     display: inline-flex;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 18px;
-     
+.mg {
+     padding: 0px 10px 0px 10px;
 }
 
-hr.ln-1 {
-     width: 1256px;
-     border: 0.5px solid #AFAFAF;
+.dp-m {
+     width: 176px;
+     margin: 22px 0px 0px 146px;
 }
-.fnt-1{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-size: 18px;
-     color: #2A97E1;
+
+/* footer*/
+.que {
+     margin-bottom: 52px;
 }
-.para{
-     font-family: 'Readex Pro';
+
+.sp {
+     color: #C2C2C2;
+     font-family: "Readex Pro";
+     font-size: 28px;
      font-style: normal;
      font-weight: 300;
-     font-size: 18px;
-     color: #696767;
-     margin: 0px;
-
 }
 
-h5.right{
-     font-family: 'Readex Pro';
+.sp-1 {
+     margin: 0px 0px 24px;
+     font-family: "Readex Pro";
+     font-size: 32px;
      font-style: normal;
-     font-weight: 300;
-     font-size: 18px;
-     
+     font-weight: 500;
 }
-/* right div mid */
-.doc{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 18px;
+
+.para {
      color: #494949;
+     font-family: "Readex Pro";
+     font-size: 18px;
+     font-style: normal;
+     padding-right: 67px;
+     font-weight: 300;
+     display: contents;
+
 }
-/* img and icon */
-.pd{
-  padding-left: 19px; 
+
+.list-card {
+     margin: 46px 0px 0px 0px;
 }
-.pm{
-    padding-bottom: 20px;
+
+.list-card>ul {
+     padding-left: 19px;
+}
+
+.list-card>h2 {
+     margin: 0px 0px 28px 0px;
+     color: #000;
+     font-family: "Readex Pro";
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 600;
+}
+
+.h-2 {
+     color: #000;
+     font-family: "Readex Pro";
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 500;
+     margin-bottom: 5px;
+     margin-top: 101px;
+}
+
+.ser {
+     margin: 46px 0px 46px;
+}
+
+
+
+.pd {
+     padding-left: 19px;
+}
+
+.pm {
+     padding-bottom: 20px;
 }
 
 /*img and icon stp */
-.pmd-i{
-    display: inline-flex;
+.pmd-i {
+     display: inline-flex;
 
 }
-.pdf{
-    border-radius: 50px;
-    border: 1px solid #2A97E1;
-    background: #FFF;
-    padding: 0px 0px 8px 13px;
-    margin: 12px 19px 0px;
-    width: 43px;
-    height: 17px;
-    display: block;
-    color: #2A97E1;
-}
 
-
-
-
-/* stoping div mid */
-.lio{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 23px;
-     color: #000000;
-}
-.li-1{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 18px;
-     color: #494949;
-     padding-left: 23px;
-}
-
-li-1>li::before {
-     content: "\2022";
+.pdf {
+     border-radius: 50px;
+     border: 1px solid #2A97E1;
+     background: #FFF;
+     padding: 1px 16px 2px 15px;
+     margin: 12px 19px 0px;
+     width: 51px;
+     height: 19px;
+     display: block;
+     font-size: 12px;
      color: #2A97E1;
-    
-     font-weight: bold;
-   
-     width: 1em;
-     margin-left: -1em;
-  }
- .li-a{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 18px;
+}
+
+.doc {
+     margin-top: 46px;
      color: #494949;
- }
-
- .opt{
-     
-     width: 100%;
- }
-
-
-/* .left>h4{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 300;
+     font-family: "Readex Pro";
      font-size: 18px;
-     color: #494949;
-} */
-.h-2{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 600;
-    font-size: 28px;
-     margin-bottom: 8px;
-     
-}
-.rt-1{
-     
-     font-family: 'Readex Pro';
      font-style: normal;
      font-weight: 300;
-     font-size: 18px;
-     color: #494949;
-     margin: 0px;
-     display: inline-block;
-     width: 56%;
-}
-h3.he{
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 28px;
-}
-.left{
-     width: 47%;
-     display: inline-block;
-}
-.right{
-     width: 40%;
-     display:inline-block;
-     margin-left: 151px;
 }
 
-.sp{
-     margin-left: 4px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 28px;
-     color: #C2C2C2;
-     margin: 46px 0px 0;
-     
-
-}
-.sp-1{
-     margin-left: 4px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 31px;
-     margin: 10px 0 28px;
-     color: black;
-}
-.nav{
-     padding-left: 0px;
-     
-}
-li::marker{
-     color: #2A97E1;
-     border-radius: 8px;
-     width: 8px;
-     
+.right {
+     padding-left: 70px;
 }
 
-.pl{
-     color: #000;
-     font-size: 32px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 500;
+.quest>div>h2 {
+     padding: 0px 0px 23px 0px;
+     margin-top: 46px;
+}
+
+.quest>div>p {
+     margin: 19px 0px 19px 0px;
+
+}
+
+.quest>div {
      border-bottom: #AFAFAF solid 1px;
-     padding-bottom: 23px;
-     margin: 88px 0 0;
-     
-}
-.rgt{
-     
-    width: 50%;
-    display: inline-block;
-    font-family: 'Readex pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
 }
 
-.ser{
-     color: #000;
-     font-size: 28px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-    font-weight: 600;
-}
-.hed{
-    margin-top: 46px;
-    margin-bottom: 28px;
-    color: #000;
-    font-size: 32px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 500;
-}
-.in{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 40%;
-    margin-top: 19px;
-    margin-bottom: 19px;
-}
-.duo{
-    
-    border-bottom: #AFAFAF solid 1px;
-}
-.rt{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 40%;
-    margin: 0px;
-}
-.lg{
-display: inline-flex;
-padding: 19px 0px 24px;
-border-bottom: #AFAFAF solid 1px;
+.left-pad {
+     padding: 0px 15px 0px 0px;
 }
 
-.tr{
-    color: #000;
-    font-size: 32px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 500;
-    border-bottom: #AFAFAF solid 1px;
-    padding-bottom: 23px;
-    margin: 46px 0 0;
+.quest {
+     padding-left: 15px;
 }
 
-
-
-.sat{
-    padding: 19px 0px 19px;
-    border-bottom: #AFAFAF solid 1px;
-}
-.st{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 40%;
-    margin: 0px;
-}
-.st-1{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 50%;
-    margin: 0px;
-}
-.hsm{
-    padding: 19px 0px 19px;
-    border-bottom: #AFAFAF solid 1px;
-    display: inline-flex;
-    margin-bottom: 43px;
-}
-.hm{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 40%;
-    margin: 0px;
-}
-.hm-1{
-    font-family: 'Readex Pro';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    color: #494949;
-    display: inline-block;
-    width: 55%;
-    margin: 0px;
+.eml {
+     width: 203px;
+     height: 24px;
+     border-radius: 10px;
+     border: none;
+     background: #FFF;
+     margin: 23px 23px 20px;
 }
 
-
-.foot{
-    padding: 0px 57px 0px 129px;
-    background: linear-gradient(45deg,#2A97E1, #2490D9, #33A6F4, #64BCF8);
-}
-.lef-ft{
-    width: 50%;
-    display: inline-block;
-    
-    }
-.ad{
-     color: #FFF;
-     font-size: 32px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 500;
-     margin: 71px 0px 28px;
-}
-  .abt{
-    color: #FFF;
-    font-size: 18px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 200;
-    padding-left: 0px;
-  }
-  
-
-.pfo{
-     color: #FFF;
-     font-size: 32px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 500;
-     margin: 90px 0px 0px;
+.two {
+     border-radius: 10px;
+     background: #FFF;
+     width: 447.665px;
+     height: 64px;
+     padding-bottom: 5px;
 }
 
-
-.sb{
-    padding: 8px 0px 0px;
-}
-.gy{
-    color: #FFF;
-font-size: 18px;
-font-family: 'Readex Pro';
-font-style: normal;
-font-weight: 500;
-margin: 24px 0px 0px;
-}
-.icon{
-    margin: 69px 0px 0px;
-}
-.md{
-    padding: 0px 27px 0px 0px;
-}
-
-.ls-m>ul>li{
-    text-decoration: none;
-    display: inline-block;
-    color: #FFF;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-
-ul.lst{
-    padding-left: 0px;
-    margin-bottom: 120px;
-}
-.lst-1{
-    padding: 78px 30px 0px 0px; 
-}
-.lst-2{
-    padding: 78px 29px 0px 0px;
-}
-.lst-3{
-    padding: 78px 28px 0px 0px;
-}
-
-
-
-
-/* starting right footer */
-
-.rig-ft{
-    width:38%;
-    display: inline-block;
-    margin-left: 135px;
-   
-
-}
-.gud{
-    color: #FFF;
-font-size: 32px;
-font-family: 'Readex Pro';
-font-style: normal;
-font-weight: 500;
-margin: 0px 0px 28px;
-}
-.que{
-    margin-bottom: 18px;
-}
-.ggn{
-     color: #FFF;
-     font-size: 32px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 500;
-     margin: 90px 0px 41px;
-}
-
-.bot{
-    display: block;
-    margin-top: 0px;
-     margin-bottom: 8px;
-     color: #FFF;
-    font-size: 18px;
-    font-family: 'Readex Pro';
-    font-style: normal;
-    font-weight: 200;
-}
-.em{
-     color: #FFF;
-     font-size: 16px;
-     font-family: 'Readex Pro';
-     font-style: normal;
-     font-weight: 700;
-}
-.eml{
-    width: 203px;
-    height: 24px;
-    border-radius: 10px;
-    border: none;
-    background: #FFF;
-    margin: 23px 23px 20px  ;
-}
-.two{
-    border-radius: 10px;
-    background: #FFF;
-    width: 447.665px;
-    height: 64px;
-    padding-bottom: 5px;
-}
-.bt{
+.bt {
      border-radius: 10px;
      background: rgba(59, 199, 243, 0.15);
      width: 120px;
@@ -576,16 +233,130 @@ margin: 0px 0px 28px;
      border: none;
      color: #2F2F2F;
      font-size: 16px;
-     font-family:'Readex Pro';
+     font-family: 'Readex Pro';
      font-style: normal;
      font-weight: 400;
 
 }
-::placeholder{
+
+::placeholder {
      color: #777;
      font-size: 16px;
-     font-family:'Readex Pro';
+     font-family: 'Readex Pro';
      font-style: normal;
      font-weight: 400;
 }
 
+.foot {
+     background: linear-gradient(#2A97E1, #2490D9, #33A6F4, #64BCF8);
+     margin-top: 46px;
+     padding: 71px 0px 0px 129px;
+
+}
+
+.abt {
+     margin: 0px 0px 28px;
+     font-family: 'Readex Pro';
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 500;
+}
+
+/*   */
+.top-footer>ul {
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 200;
+     list-style: none;
+}
+
+.foot-row>div>h2 {
+     margin: 0px 0px 28px;
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 500;
+}
+
+.foot-mid>div {
+     margin: 90px 0px 0px 0px;
+}
+
+.foot-mid>div>h2 {
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 600;
+     margin-bottom: 24px;
+}
+
+li::marker {
+     color: #2A97E1;
+}
+
+
+.foot-mid>div>span {
+     margin: 24px 0px 65px 0px;
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+}
+
+.icn {
+     margin-top: 34px;
+     padding: 0px;
+
+}
+
+.icn>img {
+     padding-right: 27px;
+}
+
+.terms-in>div>ul {
+     display: inline-flex;
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+}
+
+.terms-in>div {
+     padding: 19px 0px 0px 0px;
+     margin: 35px 0px 32px 0px;
+}
+
+.terms-in>div>ul>li {
+     padding-right: 31px;
+     list-style: none;
+}
+
+.lst-1 {
+     margin: 78px 30px 0px 0px;
+}
+
+.gud {
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 500;
+}
+
+.e-mail>h5 {
+     color: #FFF;
+     font-family: "Readex Pro";
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 32px;
+
+}
