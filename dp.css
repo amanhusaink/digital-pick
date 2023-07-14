@@ -56,7 +56,7 @@ body {
      padding: 0px 100px 0px 128px;
 }
 
-.nav-item-1 {
+.lg-only {
      background: #2490D9;
      border-radius: 50px;
 }
@@ -64,11 +64,20 @@ body {
 .navbar-toggle {
      color: white;
 }
-
-.nav {
+.rounded{
+     width: 169px;
+     height: 38px;
+}
+.navba{
+     padding: 35px;
+}
+.nav-1 {
      margin: 48px 0px 46px;
      border-bottom: #AFAFAF solid 1px;
      padding-bottom: 45px;
+     display: flex;
+     list-style: none;
+     
 }
 
 .mg {
